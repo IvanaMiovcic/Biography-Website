@@ -144,7 +144,29 @@ a {
 }
 
 /* Formating for mobile and tablet */
+
+@media screen and (max-width: 1030px) and (min-width: 895px) {
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .title {
+    height: 70px;
+    width: 700px;
+  }
+
+  .subtitle {
+    height: 44px;
+    width: 790px;
+  }
+}
 @media screen and (max-width: 894px) and (min-width: 761px){
+
   h1 {
     font-size: 70px;
   }
