@@ -148,21 +148,21 @@ a {
 @media screen and (max-width: 1030px) and (min-width: 895px) {
 
   h1 {
-    font-size: 70px;
+    font-size: 80px;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 50px;
   }
 
   .title {
-    height: 70px;
-    width: 700px;
+    height: 80px;
+    width: 710px;
   }
 
   .subtitle {
-    height: 44px;
-    width: 790px;
+    height: 50px;
+    width: 810px;
   }
 }
 @media screen and (max-width: 894px) and (min-width: 761px){
