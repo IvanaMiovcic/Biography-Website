@@ -526,8 +526,10 @@ a {
   .header-img {
     height: 380px;
   }
+
   .foreword  {
     padding: 20px 0;
+    width: 80%;
   }
 
   h3 {
@@ -535,7 +537,7 @@ a {
   }
 
   h4 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .list {
@@ -543,7 +545,7 @@ a {
   }
 
   ul, .list p, footer p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .gallery {
@@ -564,8 +566,9 @@ a {
   footer {
     margin-top: 30px;
   }
+
   footer img {
-    width: 50px;
+    width: 60px;
     height: auto;
     top: 5px;
   }
