@@ -337,7 +337,7 @@ a {
 }
 }
 
-@media screen and (max-width: 479px) and (orientation: portrait){
+@media screen and (max-width: 479px) and (min-width: 322px) and (orientation: portrait){
 
   h1 {
     font-size: 42px;
@@ -421,21 +421,21 @@ a {
 
 @media screen and (max-width: 321px) and (orientation: portrait) {
   h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .title {
-    height: 38px;
-    width: 342px;
+    height: 36px;
+    width: 300px;
   }
 
   .subtitle {
     height: 20px;
-    width: 352px;
+    width: 310px;
   }
 
   .header-img {
