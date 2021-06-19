@@ -550,7 +550,7 @@ a {
   }
 
   .gallery {
-    margin: 30px auto 0 auto;
+    margin: 30px auto 10px auto;
     width: 55%;
     display: flex;
     flex-direction: column;
