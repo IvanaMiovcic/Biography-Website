@@ -207,6 +207,7 @@ a {
 }
 
 @media screen and (max-width: 760px) and (min-width: 606px){
+
   h1 {
     font-size: 55px;
   }
@@ -409,7 +410,7 @@ a {
   }
 
   footer {
-    margin-top: 10px;
+    margin-top: 18px;
     padding: 6px;
   }
   footer img {
@@ -420,6 +421,7 @@ a {
 }
 
 @media screen and (max-width: 321px) and (orientation: portrait) {
+
   h1 {
     font-size: 36px;
   }
@@ -452,7 +454,7 @@ a {
   }
 
   h4 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .list {
@@ -500,7 +502,75 @@ a {
   }
 }
 
+/*Formating for landscape */
+@media screen and (max-width: 736px) and (min-width: 560px) and (orientation: landscape) {
+
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .title {
+    height: 55px;
+    width: 500px;
+  }
+
+  .subtitle {
+    height: 40px;
+    width: 640px;
+  }
+
+  .header-img {
+    height: 380px;
+  }
+  .foreword  {
+    padding: 20px 0;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  .list {
+    padding: 8px 50px 30px 30px;
+  }
+
+  ul, .list p, footer p {
+    font-size: 14px;
+  }
+
+  .gallery {
+    margin: 30px auto 0 auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery img {
+    width: 100%;
+  }
+
+  .caption p {
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+  footer img {
+    width: 50px;
+    height: auto;
+    top: 5px;
+  }
 }
+
 /*Formating for larger screens */
 @media screen and (min-width: 1500px) and (max-width: 1999px){
   h1 {
