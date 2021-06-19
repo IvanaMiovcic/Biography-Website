@@ -503,6 +503,7 @@ a {
 }
 
 /*Formating for landscape */
+
 @media screen and (max-width: 736px) and (min-width: 560px) and (orientation: landscape) {
 
   h1 {
@@ -545,7 +546,7 @@ a {
   }
 
   ul, .list p, footer p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .gallery {
@@ -560,7 +561,7 @@ a {
   }
 
   .caption p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   footer {
