@@ -338,21 +338,22 @@ a {
 }
 
 @media screen and (max-width: 479px) and (orientation: portrait){
+
   h1 {
-    font-size: 44px;
+    font-size: 38px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .title {
-    height: 44px;
+    height: 38px;
     width: 342px;
   }
 
   .subtitle {
-    height: 24px;
+    height: 20px;
     width: 352px;
   }
 
