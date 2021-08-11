@@ -2,36 +2,29 @@
   <html>
     <head>
       <title> Margaret Hamilton </title>
-      <link href="biography.css" rel="stylesheet" type="text/css">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300&display=swap"
-      rel="stylesheet">
-      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <link href="tribute.css" rel="stylesheet" type="text/css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,400;0,900;1,300&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
-    <body>
+    <body id="main">
       <header>
         <div class="header-img">
-          <div class="title">
             <h1> Margaret Hamilton</h1>
-          </div>
-          <div class="subtitle">
             <h2> The Woman Who Took Us to the Moon </h2>
-          </div>
         </div>
       </header>
       <main>
         <div class="foreword">
-          <h3> Margaret Hamilton was the chief programmer of the on-board software
+          <p> Margaret Hamilton was the chief programmer of the on-board software
               that landed the Apollo 11 misson on the moon. She was one of the first
               female programmers and her code built the foundation of
               software engineering.
-          </h3>
+          </p>
         </div>
-          <div class="list">
-            <h4> A Timeline of Her Life: </h4>
+          <div class="list" id="tribute-info">
+            <h3> A Timeline of Her Life: </h3>
               <ul>
                 <li><strong> 1936: </strong> Margaret Elaine Heafield was born on August 17,
                   1936 in Paoli, Indiana, to parents Kenneth Heafield and
@@ -103,18 +96,20 @@
                   to create a picture of Hamilton using moonlight. </li>
               </ul>
               <br>
-              <p> To find out more about Margaret Hamilton visit her<a
+              <p> To find out more about Margaret Hamilton visit her <a id="tribute-link"
                 href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)" target="_blank">
                 Wikipedia Page.</a> </p>
           </div>
       </main>
-        <div class="gallery">
-          <img src="margaret-hamilton.jpeg" alt="Margaret Hamilton working">
-          <img src="Margaret_Hamilton.gif" alt="Magaret with her code">
-        </div>
-        <div class="caption">
-          <p> <em> First image: Margaret working at her desk. Second image: Margaret
+        <div id="img-div">
+          <div class="gallery">
+            <img id="image" src="margaret-hamilton.jpeg" alt="Margaret Hamilton working">
+            <img id="image" src="Margaret_Hamilton.gif" alt="Magaret with her code">
+          </div>
+          <div class="caption">
+            <p> <em id="img-caption"> First image: Margaret working at her desk. Second image: Margaret
               standing next to her code for Apollo 11.</em> </p>
+          </div>
         </div>
       <footer>
         <p> Website made by Ivana Miovcic.
