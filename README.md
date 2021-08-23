@@ -5,3 +5,6 @@ To view the site, <a href="https://ivanamiovcic.github.io/Biography-Website/"> c
 <br>
 <br>
 Details about the project can be found on <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page"> FreeCodeCamp's website. </a> 
+
+## Website Preview
+<img src="website-preview.png" height="500px" width="auto">
